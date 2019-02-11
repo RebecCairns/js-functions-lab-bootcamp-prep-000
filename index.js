@@ -11,6 +11,6 @@ function happyHolidayTo(holiday, name){
   return printer;
 }
 function holidayCountdown(holiday, days){
-  var printer = "It\'s " + days + " until " + holiday + "!";
+  var printer = "It\'s " + days + " days until " + holiday + "!";
   return printer;
 }
