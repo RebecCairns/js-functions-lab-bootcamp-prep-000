@@ -7,7 +7,8 @@ function happyHolidaysTo(name){
   return printer;
 }
 function happyHolidayTo(holiday, name){
-  return "Happy ${holiday}, ${name}";
+  var printer = "Happy " + holiday + ", " + name + "!";
+  return printer;
 }
 function holidayCountdown(holiday, days){
   return "It's ${days} days until ${holiday}!"
